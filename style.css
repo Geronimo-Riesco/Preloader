@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loading-page {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+}
+
+.loading-page .counter {
+  text-align: center;
+}
+
+.loading-page .counter p {
+  font-size: 40px;
+  font-weight: 100;
+  color: orangered;
+}
+
+.loading-page .counter h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: -10px;
+}
+
+.loading-page .counter hr {
+  background: orangered;
+  border: none;
+  height: 1px;
+}
+
+.loading-page .counter {
+  position: relative;
+  width: 200px;
+}
+
+.loading-page .counter h1.abs {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.loading-page .counter .color {
+  width: 0px;
+  overflow: hidden;
+  color: orangered;
+}
