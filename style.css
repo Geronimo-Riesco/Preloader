@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+  width: 100%;
+}
+
 .loading-page {
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #444;
+  background-color: #2f3d32;
   height: 100%;
   width: 100%;
   z-index: 999;
@@ -22,7 +27,7 @@
 .loading-page .counter p {
   font-size: 40px;
   font-weight: 100;
-  color: orangered;
+  color: #c18983;
 }
 
 .loading-page .counter h1 {
@@ -32,7 +37,7 @@
 }
 
 .loading-page .counter hr {
-  background: orangered;
+  background: #c18983;
   border: none;
   height: 1px;
 }
@@ -51,5 +56,5 @@
 .loading-page .counter .color {
   width: 0px;
   overflow: hidden;
-  color: orangered;
+  color: #c18983;
 }
